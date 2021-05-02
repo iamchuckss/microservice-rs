@@ -1,0 +1,4 @@
+FROM postgres
+MAINTAINER <schuck017@gmail.com>
+
+ADD schemas/messages.sql /docker-entrypoint-initdb.d/
